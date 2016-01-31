@@ -26,9 +26,9 @@ Shell scripts to install a small hadoop cluster with 2 nodes
 
 
 #Usefull links:
-ALL APPLICATIONS UI: http://master:8088/cluster/apps
-NAMENODE UI: http://master:50070/dfshealth.html#tab-overview
-JOB HISTORY UI: http://master:19888/jobhistory
+* ALL APPLICATIONS UI: http://master:8088/cluster/apps
+* NAMENODE UI: http://master:50070/dfshealth.html#tab-overview
+* JOB HISTORY UI: http://master:19888/jobhistory
 
 
-
+ 
