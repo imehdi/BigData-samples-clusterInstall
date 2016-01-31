@@ -1,0 +1,84 @@
+<?xml version="1.0"?> 
+<configuration>
+	<property>
+	      <name>yarn.nodemanager.aux-services</name>
+	      <value>mapreduce_shuffle</value>
+	</property>
+	<property>
+	      <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
+	      <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+	</property>
+	<property>
+	 <name>yarn.resourcemanager.scheduler.address</name>
+	 <value>master:8030</value>
+	</property> 
+	<property>
+	 <name>yarn.resourcemanager.address</name>
+	 <value>master:8032</value>
+	</property>
+	<property>
+	  <name>yarn.resourcemanager.webapp.address</name>
+	  <value>master:8088</value>
+	</property>
+	<property>
+	  <name>yarn.resourcemanager.resource-tracker.address</name>
+	  <value>master:8031</value>
+	</property>
+	<property>
+	  <name>yarn.resourcemanager.admin.address</name>
+	  <value>master:8033</value>
+	</property>
+
+	 <property>
+        <name>yarn.nodemanager.logs-dirs</name>
+        <value>/usr/local/hadoop_tmp/logs</value>
+    </property>
+
+
+
+
+
+<property>
+        <name>yarn.nodemanager.local-dirs</name>
+        <value>/usr/local/hadoop_tmp/logs</value>
+    </property>
+
+
+
+<property>
+        <name>yarn.nodemanager.log-dirs</name>
+        <value>/usr/local/hadoop_tmp/logs</value>
+    </property>
+
+
+<property>
+        <name>yarn.log-aggregation-enable</name>
+        <value>true</value>
+    </property>
+
+
+
+
+<property>
+        <name>yarn.log-aggregation.retain-seconds</name>
+        <value>10800</value>
+    </property>
+
+
+<property>
+        <name>yarn.log-aggregation.retain-check-interval-seconds</name>
+        <value>15</value>
+    </property>
+
+<property>
+        <name>yarn.nodemanager.remote-app-log-dir</name>
+        <value>/logs</value>
+    </property>
+
+
+<property>
+        <name>yarn.nodemanager.remote-app-log-dir-suffix</name>
+        <value>logs</value>
+    </property>
+
+</configuration>
